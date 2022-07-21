@@ -4,16 +4,17 @@
 📖 **Detectron2**, **LabelMe, GoogleColab**
 
 Bu projede Instance Segmentation  ile 3 adet çalışma yapılmıştır.
-1- Bean Instance Segmentation 
-16 Adet resim üzerinden 48 adet etiketlenmiş bezelyeden oluşuyor.
 
-2- Bean Instance Segmentation
-1 Adet resim üzerinden 3 adet etkilenmiş bezelyeden oluşuyor.
+<br>1- Bean Instance Segmentation </br>
+<br>16 Adet resim üzerinden 48 adet etiketlenmiş bezelyeden oluşuyor.</br>
 
-3- Bezelye ve Salatalık Instance Segmentation (10.000 iteration)
-48 Adet etiketlenmiş Bezelye ve +100 Adet etiketlenmiş Salatalık resminden oluşuyor
+<br>2- Bean Instance Segmentation</br>
+<br>1 Adet resim üzerinden 3 adet etkilenmiş bezelyeden oluşuyor.</br>
 
-Projenin Amacı : Instance Segmentation ile tek sınıf ve 2 adet sınıf  için en uygun etiketlenmiş obje, resim ve iterasyon sayısının tespiti.
+<br>3- Bezelye ve Salatalık Instance Segmentation (10.000 iteration)</br>
+<br>48 Adet etiketlenmiş Bezelye ve +100 Adet etiketlenmiş Salatalık resminden oluşuyor</br>
+
+<br>Projenin Amacı : Instance Segmentation ile tek sınıf ve 2 adet sınıf  için en uygun etiketlenmiş obje, resim ve iterasyon sayısının tespiti.</br>
 
 [GitHub - mrtlckn/Bean_InstanceSegmentation_detectron2](https://github.com/mrtlckn/Bean_InstanceSegmentation_detectron2)
 
@@ -27,13 +28,13 @@ Projenin Amacı : Instance Segmentation ile tek sınıf ve 2 adet sınıf  için
         
         Modelimizi 48 adet etiketlenmiş resim ile eğittik.
         
-        ![Untitled](Bean%20and%20Cucumber%20InstanceSegmentation%20726c6319f3bb4154be067c51b6b87459/Untitled.png)
+        ![Untitled](readme_images/Untitled.png)
         
         Aşağıdaki bezelye görüntüsünün sonucu beklendiği gibi geldi.
         
-        ![Untitled](Bean%20and%20Cucumber%20InstanceSegmentation%20726c6319f3bb4154be067c51b6b87459/Untitled%201.png)
+        ![Untitled](readme_images/Untitled%201.png)
         
-        ![Untitled](Bean%20and%20Cucumber%20InstanceSegmentation%20726c6319f3bb4154be067c51b6b87459/Untitled%202.png)
+        ![Untitled](readme_images/Untitled%202.png)
         
 - 2- Bean Instance Segmentation ( 3 etiket ile)
     
@@ -45,7 +46,7 @@ Projenin Amacı : Instance Segmentation ile tek sınıf ve 2 adet sınıf  için
     - Sonuç
     3 adet etiketlenmiş resim ile eğitilen modelimiz bize düşük oranda tahmin yapabiliyor ama tatmin edici değil.
         
-        ![Untitled](Bean%20and%20Cucumber%20InstanceSegmentation%20726c6319f3bb4154be067c51b6b87459/Untitled%203.png)
+        ![Untitled](readme_images/Untitled%203.png)
         
 - 3-Bezelye ve Salatalık Instance Segmentation (10.000 iteration)
     
@@ -57,11 +58,11 @@ Projenin Amacı : Instance Segmentation ile tek sınıf ve 2 adet sınıf  için
         1. 10.000 iterasyon sonunda model eğitimimiz 75dakika sürdü.
         2. total_loss = 0.3277 oldu, iterasyon sayısını arttırarak veya etiketlenmiş resim sayımızda oynama yaparak lossumuzu düşürebiliriz.
         
-        ![Untitled](Bean%20and%20Cucumber%20InstanceSegmentation%20726c6319f3bb4154be067c51b6b87459/Untitled%204.png)
+        ![Untitled](readme_images/Untitled%204.png)
         
         - Diğer projelerimizde kullandığımız test resminin sonucu;
             
-            ![Untitled](Bean%20and%20Cucumber%20InstanceSegmentation%20726c6319f3bb4154be067c51b6b87459/Untitled%205.png)
+            ![Untitled](readme_images/Untitled%205.png)
             
             İlk projemiz gibi çok sayıda bezelye bulamadı fakat tespit edilenlerin doğruluk oranı yüksek.
             
@@ -69,19 +70,19 @@ Projenin Amacı : Instance Segmentation ile tek sınıf ve 2 adet sınıf  için
             
             Test sonucumuz başarısız oldu. 
             
-            ![Untitled](Bean%20and%20Cucumber%20InstanceSegmentation%20726c6319f3bb4154be067c51b6b87459/Untitled%206.png)
+            ![Untitled](readme_images/Untitled%206.png)
             
         - Salatalık resminin sonucu 2
             
             Bazı salatalıklar çok net olduğu halde başarısız oldu.
             
-            ![Untitled](Bean%20and%20Cucumber%20InstanceSegmentation%20726c6319f3bb4154be067c51b6b87459/Untitled%207.png)
+            ![Untitled](readme_images/Untitled%207.png)
             
         - Salatalık resminin sonucu 3
             
             Resimde bir insan salatalık tutuyor, tahminimiz çok karışmış halde
             
-            ![Untitled](Bean%20and%20Cucumber%20InstanceSegmentation%20726c6319f3bb4154be067c51b6b87459/Untitled%208.png)
+            ![Untitled](readme_images/Untitled%208.png)
             
         - Sonuç
             
